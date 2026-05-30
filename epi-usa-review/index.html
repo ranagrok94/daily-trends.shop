@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>The 5 Best Portable Air Coolers of 2026 | Daily Trends</title>
+  <meta name="description" content="Our experts tested the top portable air coolers of 2026 — comparing cooling power, noise, energy use, and value. Find the best model for your home."/>
+  <meta name="keywords" content="best portable air cooler 2026, portable AC review, quiet air cooler, energy efficient cooling"/>
+  <meta name="theme-color" content="#c9826b"/>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Playfair Display + Lato -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans:  ['Lato', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50:  '#fdf6f3',
+              100: '#f9e8df',
+              200: '#f3ccba',
+              300: '#e9a98c',
+              400: '#d98060',
+              500: '#c9826b',
+              600: '#b05e43',
+              700: '#8f4932',
+              800: '#6b3424',
+              900: '#4a2219',
+            },
+            warm: {
+              50:  '#fdfaf7',
+              100: '#f7f0e8',
+              200: '#ede0d0',
+              300: '#ddc9b0',
+              400: '#c9ad8e',
+              500: '#b59272',
+              600: '#9a7558',
+              700: '#7d5c42',
+              800: '#5f4430',
+              900: '#3f2c1e',
+            },
+            neutral: {
+              50:  '#fafaf9',
+              100: '#f5f4f2',
+              200: '#e8e6e3',
+              300: '#d4d1cc',
+              400: '#b8b4ae',
+              500: '#9a9590',
+              600: '#7a7570',
+              700: '#5c5855',
+              800: '#3e3b39',
+              900: '#242220',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body { font-family: 'Lato', sans-serif; }
+    .font-serif { font-family: 'Playfair Display', Georgia, serif; }
+
+    /* Score bar animation */
+    .score-bar { transition: width 1s ease-in-out; }
+
+    /* Sticky CTA mobile */
+    .sticky-mobile-cta {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 50;
+      display: none;
+      padding: 12px 16px;
+      background: #fff;
+      border-top: 1px solid #e8e6e3;
+      box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
+    }
+    @media (max-width: 768px) {
+      .sticky-mobile-cta { display: block; }
+    }
+
+    /* Scarcity pulse */
+    @keyframes soft-pulse {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0.85; }
+    }
+    .scarcity-banner { animation: soft-pulse 3s ease-in-out infinite; }
+
+    /* Rank badge */
+    .rank-badge-gold   { background: linear-gradient(135deg, #f5c842, #d4a017); }
+    .rank-badge-silver { background: linear-gradient(135deg, #d4d4d4, #a8a8a8); }
+    .rank-badge-bronze { background: linear-gradient(135deg, #cd9a6c, #a0714a); }
+
+    /* Divider */
+    .ornament-divider {
+      display: flex; align-items: center; gap: 12px;
+      color: #c9ad8e; font-size: 18px; margin: 2rem 0;
+    }
+    .ornament-divider::before,
+    .ornament-divider::after {
+      content: ''; flex: 1; height: 1px; background: #ede0d0;
+    }
+
+    /* Logo wordmark */
+    .logo-wordmark span.logo-daily  { font-family: 'Lato', sans-serif; font-weight: 300; letter-spacing: 0.25em; text-transform: uppercase; font-size: 0.95rem; }
+    .logo-wordmark span.logo-trends { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.55rem; letter-spacing: -0.01em; }
+    .logo-wordmark span.logo-dot    { color: #c9826b; }
+
+    /* Star rating */
+    .stars { color: #f0a500; }
+
+    /* Section anchor offset */
+    #top5 { scroll-margin-top: 80px; }
+
+    /* Hover lift on product cards */
+    .product-card { transition: box-shadow 0.25s ease, transform 0.25s ease; }
+    .product-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.09); transform: translateY(-2px); }
+
+    /* CTA button */
+    .btn-primary {
+      background: #c9826b;
+      color: #fff;
+      transition: background 0.2s ease, transform 0.15s ease;
+    }
+    .btn-primary:hover { background: #b05e43; transform: translateY(-1px); }
+    .btn-primary:active { transform: scale(0.98); }
+
+    .btn-outline {
+      border: 1.5px solid #c9826b;
+      color: #c9826b;
+      background: transparent;
+      transition: background 0.2s ease, color 0.2s ease;
+    }
+    .btn-outline:hover { background: #fdf6f3; }
+
+    /* Nav link */
+    .nav-link { color: #5c5855; font-size: 0.875rem; letter-spacing: 0.04em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-link:hover { color: #c9826b; }
+
+    /* Pros/cons */
+    .pro-item::before  { content: '✓'; color: #4a9e6f; margin-right: 8px; font-weight: 700; }
+    .con-item::before  { content: '✗'; color: #c44b4b; margin-right: 8px; font-weight: 700; }
+
+    /* Table of contents jump links */
+    .toc-link { transition: all 0.2s; border-left: 2px solid transparent; }
+    .toc-link:hover { border-left-color: #c9826b; color: #c9826b; padding-left: 8px; }
+  </style>
+</head>
+
+<body class="bg-neutral-50 text-neutral-800 antialiased">
+
+  <!-- ════════════════════════════════════════════
+       HEADER / NAV
+  ════════════════════════════════════════════ -->
+  <header class="bg-white border-b border-neutral-200 sticky top-0 z-40">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      <div class="flex items-center justify-between h-16">
+
+        <!-- Logo -->
+        <a href="https://www.diginear.com/2GFDLQK9/222K4PSK/" class="logo-wordmark flex flex-col leading-none select-none">
+          <span class="logo-daily text-neutral-500">Daily</span>
+          <span class="logo-trends text-neutral-900">Trends<span class="logo-dot">.</span></span>
+        </a>
+
+        <!-- Desktop Nav -->
+        <nav class="hidden md:flex items-center gap-7">
+          <a href="https://www.diginear.com/2GFDLQK9/222K4PSK/" class="nav-link">Home</a>
+          <a href="https://www.diginear.com/2GFDLQK9/222K4PSK/" class="nav-link">Reviews</a>
+          <a href="https://www.diginear.com/2GFDLQK9/222K4PSK/" class="nav-link">Home &amp; Living</a>
+          <a href="https://www.diginear.com/2GFDLQK9/222K4PSK/" class="nav-link">Wellness</a>
+          <a href="https://www.diginear.com/2GFDLQK9/222K4PSK/" class="nav-link">About</a>
+        </nav>
+
+        <!-- Mobile menu hint -->
+        <div class="md:hidden">
+          <span class="text-xs text-neutral-400 uppercase tracking-widest">Reviews</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Category breadcrumb -->
+  <div class="bg-warm-100 border-b border-warm-200">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-2 text-xs text-neutral-500 flex items-center gap-2">
+      <a href="https://www.diginear.com/2GFDLQK9/222K4PSK/" class="hover:text-brand-600 transition-colors">Home</a>
+      <span>›</span>
+      <a href="https://www.diginear.com/2GFDLQK9/222K4PSK/" class="hover:text-brand-600 transition-colors">Home &amp; Living</a>
+      <span>›</span>
+      <span class="text-neutral-700">Best Portable Air Coolers 2026</span>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════
+       SCARCITY BANNER
+  ════════════════════════════════════════════ -->
+  <div class="scarcity-banner bg-brand-700 text-white text-center py-2.5 px-4 text-sm">
+    ⚠️ <strong>Stock Alert:</strong> Top-rated models are selling out fast due to the summer heatwave. Prices may increase at any moment due to high demand.
+  </div>
+
+  <!-- ════════════════════════════════════════════
+       HERO / ARTICLE HEADER
+  ════════════════════════════════════════════ -->
+  <main>
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 pt-10 pb-6">
+
+      <!-- Label -->
+      <div class="flex items-center gap-2 mb-4">
+        <span class="text-xs font-bold uppercase tracking-widest text-brand-600 border border-brand-300 bg-brand-50 px-3 py-1 rounded-full">Buyer's Guide</span>
+        <span class="text-xs text-neutral-400">Updated: June 2026</span>
+      </div>
+
+      <!-- Title -->
+      <h1 class="font-serif text-3xl sm:text-4xl md:text-5xl text-neutral-900 leading-tight mb-4">
+        The 5 Best Portable Air Coolers<br class="hidden sm:block"/> of 2026
+      </h1>
+
+      <p class="text-lg text-neutral-600 leading-relaxed max-w-2xl mb-6 font-light">
+        We tested and compared the most popular portable air coolers to find the ones that actually keep rooms cool, run quietly, and won't spike your electricity bill.
+      </p>
+
+      <!-- Author row -->
+      <div class="flex items-center gap-3 border-t border-b border-neutral-200 py-4 mb-8">
+        <img src="images/65290850-0-young-bearded-man-wi-2.webp" alt="Gavin Ronbaucher" class="w-12 h-12 rounded-full object-cover bg-neutral-200" loading="lazy"/>
+        <div>
+          <p class="text-sm font-bold text-neutral-800">Maarten van den Berg</p>
+          <p class="text-xs text-neutral-500">Consumer Tech Reviewer — Home Appliances Specialist</p>
+        </div>
+        <div class="ml-auto text-right hidden sm:block">
+          <div class="stars text-sm">★★★★★</div>
+          <p class="text-xs text-neutral-400 mt-0.5">Expert Tested</p>
+        </div>
+      </div>
+
+      <!-- Hero image -->
+      <div class="rounded-2xl overflow-hidden mb-8 bg-warm-100">
+        <img src="images/8c3221cc-317f-47d9-16ee-2a22e3e08400.webp"
+             alt="Best portable air coolers of 2026 compared"
+             class="w-full object-cover max-h-80"
+             loading="eager"
+             fetchpriority="high"/>
+      </div>
+
+      <!-- Jump to top 5 CTA -->
+      <div class="bg-warm-100 border border-warm-300 rounded-xl p-4 flex items-center justify-between mb-8">
+        <p class="text-sm text-neutral-600 font-light">Ready to find your pick? Jump straight to our top 5 rankings.</p>
+        <a href="#top5" class="btn-primary text-sm font-bold px-5 py-2.5 rounded-full whitespace-nowrap ml-4">
+          See Rankings ↓
+        </a>
+      </div>
+
+      <!-- ═══════ INTRO COPY ═══════ -->
+      <div class="prose-content max-w-3xl">
+        <p class="text-base text-neutral-700 leading-relaxed mb-4 font-light">
+          In 2026, staying cool during extreme summer heat has become more important — and more challenging — than ever. Whether you're working from home, trying to get a good night's sleep, or simply looking for relief in a room that your central AC can't quite reach, the right portable cooler can make a real difference.
+        </p>
+        <p class="text-base text-neutral-700 leading-relaxed mb-6 font-light">
+          With hundreds of products on the market, we spent several months testing the most talked-about models to help you cut through the noise. We evaluated cooling performance, noise levels, energy consumption, ease of use, portability, and overall value — so you don't have to.
+        </p>
+
+        <!-- What to look for callout -->
+        <div class="bg-white border border-neutral-200 rounded-xl p-6 mb-8 shadow-sm">
+          <h2 class="font-serif text-xl text-neutral-900 mb-4">What to Look For in a Portable Air Cooler</h2>
+          <div class="grid sm:grid-cols-2 gap-2">
+            <p class="pro-item text-sm text-neutral-700">Fast, noticeable cooling performance</p>
+            <p class="pro-item text-sm text-neutral-700">Quiet operation — ideal for sleep &amp; work</p>
+            <p class="pro-item text-sm text-neutral-700">Energy efficiency that won't raise bills</p>
+            <p class="pro-item text-sm text-neutral-700">Portable &amp; easy to move between rooms</p>
+            <p class="pro-item text-sm text-neutral-700">No complicated installation required</p>
+            <p class="pro-item text-sm text-neutral-700">Compact design for bedrooms, flats &amp; offices</p>
+            <p class="pro-item text-sm text-neutral-700">Remote control &amp; simple daily controls</p>
+            <p class="pro-item text-sm text-neutral-700">Cooling + heating for year-round comfort</p>
+          </div>
+          <div class="mt-4 pt-4 border-t border-neutral-100">
+            <h3 class="text-sm font-bold text-neutral-600 uppercase tracking-wide mb-2">What to Avoid</h3>
+            <div class="grid sm:grid-cols-2 gap-2">
+              <p class="con-item text-sm text-neutral-600">Loud units that sound like generators</p>
+              <p class="con-item text-sm text-neutral-600">Weak airflow that only recirculates warm air</p>
+              <p class="con-item text-sm text-neutral-600">Complicated installation requiring tools</p>
+              <p class="con-item text-sm text-neutral-600">Models that leak water or need constant upkeep</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testing methodology -->
+        <h2 class="font-serif text-2xl text-neutral-900 mb-3">How We Conducted Our Testing</h2>
+        <p class="text-base text-neutral-700 leading-relaxed mb-4 font-light">
+          Our team of product testers and independent reviewers analysed the most talked-about portable air coolers available in the UK market. Over several months, we assessed cooling performance, portability, noise levels, energy efficiency, ease of setup, and overall value to determine which units actually deliver real-world results.
+        </p>
+        <p class="text-base text-neutral-700 leading-relaxed mb-4 font-light">
+          We discovered that many portable coolers fail at the most basic level — they recirculate warm air rather than genuinely cooling a space. Others are too noisy for night-time use or require installation that makes them impractical for renters and smaller homes.
+        </p>
+
+        <!-- Why choosing the right unit matters -->
+        <h2 class="font-serif text-2xl text-neutral-900 mb-3 mt-8">Why Choosing the Right Portable AC Matters</h2>
+        <p class="text-base text-neutral-700 leading-relaxed mb-4 font-light">
+          Choosing the right portable air cooler is about far more than staying comfortable — it directly impacts your sleep quality, daily productivity, electricity bills, and overall wellbeing during the hottest months of the year.
+        </p>
+        <p class="text-base text-neutral-700 leading-relaxed mb-6 font-light">
+          A poorly designed unit can waste energy, produce constant background noise, and fail to actually cool the room. A high-quality portable AC, on the other hand, can transform your living space within minutes — quietly, efficiently, and without any complicated setup.
+        </p>
+
+        <!-- Impact callout cards -->
+        <div class="grid sm:grid-cols-2 gap-4 mb-8">
+          <div class="bg-warm-50 border border-warm-200 rounded-xl p-5 flex gap-4 items-start">
+            <span class="text-2xl shrink-0">😴</span>
+            <div>
+              <p class="font-bold text-sm text-neutral-800 mb-1">Better Sleep</p>
+              <p class="text-xs text-neutral-500 font-light leading-relaxed">Studies show that cooler bedroom temperatures significantly improve sleep quality and duration — especially during summer heat waves.</p>
+            </div>
+          </div>
+          <div class="bg-warm-50 border border-warm-200 rounded-xl p-5 flex gap-4 items-start">
+            <span class="text-2xl shrink-0">⚡</span>
+            <div>
+              <p class="font-bold text-sm text-neutral-800 mb-1">Lower Energy Bills</p>
+              <p class="text-xs text-neutral-500 font-light leading-relaxed">The right unit runs efficiently. The wrong one can add £30–£60 or more to your monthly electricity bill without delivering real cooling.</p>
+            </div>
+          </div>
+          <div class="bg-warm-50 border border-warm-200 rounded-xl p-5 flex gap-4 items-start">
+            <span class="text-2xl shrink-0">💼</span>
+            <div>
+              <p class="font-bold text-sm text-neutral-800 mb-1">Greater Productivity</p>
+              <p class="text-xs text-neutral-500 font-light leading-relaxed">A comfortable working environment helps you stay focused and productive — whether you work from home, a home office, or a small studio.</p>
+            </div>
+          </div>
+          <div class="bg-warm-50 border border-warm-200 rounded-xl p-5 flex gap-4 items-start">
+            <span class="text-2xl shrink-0">🏡</span>
+            <div>
+              <p class="font-bold text-sm text-neutral-800 mb-1">Whole-Home Flexibility</p>
+              <p class="text-xs text-neutral-500 font-light leading-relaxed">A truly portable unit moves with you — bedroom at night, living room by day — giving you targeted cooling exactly where you need it most.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Simplifying your decision -->
+        <div class="bg-white border-l-4 border-brand-400 pl-5 pr-4 py-4 rounded-r-xl mb-6 shadow-sm">
+          <h2 class="font-serif text-xl text-neutral-900 mb-2">Simplifying Your Decision</h2>
+          <p class="text-base text-neutral-700 leading-relaxed font-light">
+            With hundreds of portable cooling products flooding the market, finding one that truly performs can feel overwhelming. That's exactly why we created this guide.
+          </p>
+        </div>
+        <p class="text-base text-neutral-700 leading-relaxed mb-8 font-light">
+          After comparing dozens of popular models, our testing team identified the portable air coolers that stand out for cooling power, reliability, portability, ease of use, and overall value for the money. Below are the top-rated portable air coolers we recommend in 2026.
+        </p>
+
+      </div><!-- end .prose-content -->
+
+      <!-- Big pre-top5 CTA -->
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 mb-4">
+        <a href="#top5" class="btn-primary flex items-center justify-center gap-2 font-bold py-5 px-8 rounded-2xl text-base w-full text-center shadow-md hover:shadow-lg">
+          <span>★</span>
+          <span>THE 5 BEST PORTABLE AIR COOLERS OF 2026</span>
+          <span>↓</span>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- ════════════════════════════════════════════
+         TOP 5 RANKINGS
+    ════════════════════════════════════════════ -->
+    <div id="top5" class="max-w-5xl mx-auto px-4 sm:px-6 pb-16">
+
+      <div class="ornament-divider">
+        <span class="font-serif italic text-warm-400 text-sm">Our Top 5 for 2026</span>
+      </div>
+
+      <h2 class="font-serif text-3xl text-neutral-900 text-center mb-2">The Best Portable Air Coolers</h2>
+      <p class="text-center text-neutral-500 text-sm mb-10">Ranked by cooling performance, value, and ease of use</p>
+
+      <!-- ─── PRODUCT 1: EPICOOLER ─── -->
+      <div class="product-card bg-white border border-neutral-200 rounded-2xl overflow-hidden mb-8 shadow-sm">
+
+        <!-- Winner ribbon -->
+        <div class="bg-brand-600 text-white text-center py-2.5 text-xs font-bold uppercase tracking-widest">
+          ★ Editor's Choice — Best Overall 2026 ★
+        </div>
+
+        <div class="p-6 sm:p-8">
+
+          <!-- Rank + title row -->
+          <div class="flex items-start gap-4 mb-6">
+            <div class="rank-badge-gold w-14 h-14 rounded-full flex items-center justify-center text-white font-bold text-2xl shadow-md shrink-0">1</div>
+            <div class="flex-1">
+              <div class="flex flex-wrap items-center gap-2 mb-1">
+                <h3 class="font-serif text-2xl text-neutral-900">EpiCooler Portable AC</h3>
+                <span class="text-xs font-bold bg-brand-100 text-brand-700 px-2.5 py-1 rounded-full">A+</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <div class="stars">★★★★★</div>
+                <span class="text-sm text-neutral-500">9.9 / 10</span>
+              </div>
+            </div>
+            <!-- Rank medal image -->
+            <img src="images/prize1-FNb746ND.webp" alt="First place" class="w-14 h-14 object-contain shrink-0" loading="lazy"/>
+          </div>
+
+          <!-- Product image + price block -->
+          <div class="flex flex-col sm:flex-row gap-6 mb-6">
+            <div class="sm:w-48 shrink-0">
+              <div class="bg-warm-50 rounded-xl p-4 flex items-center justify-center h-48">
+                <img src="images/f9b35e8d-20ea-435e-fb2c-5e22f8500900.webp"
+                     alt="EpiCooler Portable AC"
+                     class="max-h-40 object-contain"
+                     loading="lazy"/>
+              </div>
+              <!-- Price -->
+              <div class="mt-3 text-center">
+                <span class="text-neutral-400 line-through text-sm">£275.98</span>
+                <div class="text-2xl font-bold text-brand-600">£137.99</div>
+                <div class="text-xs bg-green-100 text-green-700 font-bold rounded-full px-2 py-0.5 inline-block mt-1">60% OFF TODAY</div>
+              </div>
+            </div>
+
+            <div class="flex-1">
+              <!-- Score bars -->
+              <div class="space-y-3 mb-4">
+                <div>
+                  <div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Cooling Performance</span><span class="font-bold text-neutral-800">100%</span></div>
+                  <div class="h-2 bg-neutral-100 rounded-full"><div class="h-2 bg-brand-500 rounded-full score-bar" style="width:100%"></div></div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Ease of Use</span><span class="font-bold text-neutral-800">98%</span></div>
+                  <div class="h-2 bg-neutral-100 rounded-full"><div class="h-2 bg-brand-500 rounded-full score-bar" style="width:98%"></div></div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Low Noise Level</span><span class="font-bold text-neutral-800">99%</span></div>
+                  <div class="h-2 bg-neutral-100 rounded-full"><div class="h-2 bg-brand-500 rounded-full score-bar" style="width:99%"></div></div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Energy Efficiency</span><span class="font-bold text-neutral-800">97%</span></div>
+                  <div class="h-2 bg-neutral-100 rounded-full"><div class="h-2 bg-brand-500 rounded-full score-bar" style="width:97%"></div></div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Customer Satisfaction</span><span class="font-bold text-neutral-800">99%</span></div>
+                  <div class="h-2 bg-neutral-100 rounded-full"><div class="h-2 bg-brand-500 rounded-full score-bar" style="width:99%"></div></div>
+                </div>
+              </div>
+
+              <!-- CTA button -->
+              <a href="https://www.diginear.com/2GFDLQK9/222K4PSK/" class="btn-primary block text-center font-bold py-3.5 px-6 rounded-full text-base w-full">
+                Check Availability — 60% Off Today →
+              </a>
+              <p class="text-center text-xs text-neutral-400 mt-2">⚡ Limited stock remaining</p>
+            </div>
+          </div>
+
+          <!-- Review text -->
+          <div class="border-t border-neutral-100 pt-6">
+            <h4 class="font-serif text-lg text-neutral-800 mb-3">Our Expert Verdict</h4>
+            <p class="text-sm text-neutral-700 leading-relaxed mb-3 font-light">
+              If you're looking for a portable air cooler that <strong class="text-neutral-900">actually delivers</strong> noticeable cooling without complicated installation, EpiCooler stood out as the clear winner during our testing.
+            </p>
+            <p class="text-sm text-neutral-700 leading-relaxed mb-3 font-light">
+              From the moment we turned it on, the difference was obvious. Unlike many portable coolers that simply push warm air around, EpiCooler's proprietary <strong class="text-neutral-900">TurboCool™ technology</strong> draws in warm air through its intake vents, passes it through advanced cooling coils, and blows refreshing cold air directly into the room — dropping the temperature noticeably within minutes. Condensation produced during the process is safely evaporated inside the unit, so there are no drain hoses or messy water tanks to deal with.
+            </p>
+            <p class="text-sm text-neutral-700 leading-relaxed mb-5 font-light">
+              Several testers described it as the first portable unit that genuinely felt like a real AC system. Its whisper-quiet operation, ease of portability, and zero-installation setup impressed our team most — making it ideal for renters, apartments, and smaller homes alike.
+            </p>
+
+            <!-- 6 Modes -->
+            <div class="bg-warm-50 border border-warm-200 rounded-xl p-5 mb-5">
+              <h5 class="font-bold text-sm text-neutral-800 mb-3 uppercase tracking-wide">6 Operating Modes</h5>
+              <div class="grid grid-cols-2 sm:grid-cols-3 gap-2">
+                <div class="bg-white border border-warm-200 rounded-lg px-3 py-2 text-center">
+                  <p class="text-xs font-bold text-neutral-700">🌿 Low</p>
+                  <p class="text-xs text-neutral-400 font-light mt-0.5">Gentle cooling</p>
+                </div>
+                <div class="bg-white border border-warm-200 rounded-lg px-3 py-2 text-center">
+                  <p class="text-xs font-bold text-neutral-700">💨 Medium</p>
+                  <p class="text-xs text-neutral-400 font-light mt-0.5">Balanced airflow</p>
+                </div>
+                <div class="bg-white border border-warm-200 rounded-lg px-3 py-2 text-center">
+                  <p class="text-xs font-bold text-neutral-700">🌬️ High</p>
+                  <p class="text-xs text-neutral-400 font-light mt-0.5">Maximum power</p>
+                </div>
+                <div class="bg-white border border-brand-200 rounded-lg px-3 py-2 text-center">
+                  <p class="text-xs font-bold text-brand-600">⚡ Turbo</p>
+                  <p class="text-xs text-neutral-400 font-light mt-0.5">Rapid cool-down</p>
+                </div>
+                <div class="bg-white border border-warm-200 rounded-lg px-3 py-2 text-center">
+                  <p class="text-xs font-bold text-neutral-700">🍃 Eco</p>
+                  <p class="text-xs text-neutral-400 font-light mt-0.5">Energy saving</p>
+                </div>
+                <div class="bg-white border border-warm-200 rounded-lg px-3 py-2 text-center">
+                  <p class="text-xs font-bold text-neutral-700">😴 Sleep</p>
+                  <p class="text-xs text-neutral-400 font-light mt-0.5">Ultra-quiet night</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Key specs -->
+            <h5 class="font-bold text-sm text-neutral-800 mb-3 uppercase tracking-wide">Key Specifications</h5>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
+              <div class="bg-neutral-50 rounded-xl p-3 text-center border border-neutral-100">
+                <p class="text-lg font-bold text-brand-600">51 m²</p>
+                <p class="text-xs text-neutral-500 font-light mt-0.5">Max room size</p>
+              </div>
+              <div class="bg-neutral-50 rounded-xl p-3 text-center border border-neutral-100">
+                <p class="text-lg font-bold text-brand-600">2.1 kg</p>
+                <p class="text-xs text-neutral-500 font-light mt-0.5">Lightweight</p>
+              </div>
+              <div class="bg-neutral-50 rounded-xl p-3 text-center border border-neutral-100">
+                <p class="text-lg font-bold text-brand-600">16–45°C</p>
+                <p class="text-xs text-neutral-500 font-light mt-0.5">Cooling &amp; heating</p>
+              </div>
+              <div class="bg-neutral-50 rounded-xl p-3 text-center border border-neutral-100">
+                <p class="text-lg font-bold text-brand-600">75%</p>
+                <p class="text-xs text-neutral-500 font-light mt-0.5">Energy savings</p>
+              </div>
+            </div>
+
+            <!-- Full feature list -->
+            <div class="mb-5 space-y-2">
+              <p class="pro-item text-sm text-neutral-700"><strong>Dual functionality</strong> — cools down to 16°C in summer, heats up to 45°C in winter</p>
+              <p class="pro-item text-sm text-neutral-700"><strong>TurboCool™ technology</strong> — cools or heats the air in seconds, no waiting</p>
+              <p class="pro-item text-sm text-neutral-700"><strong>No installation needed</strong> — just plug in, select your mode, and enjoy instantly</p>
+              <p class="pro-item text-sm text-neutral-700"><strong>Whisper-quiet operation</strong> — far quieter than traditional AC; perfect for sleeping</p>
+              <p class="pro-item text-sm text-neutral-700"><strong>Portable &amp; lightweight</strong> — at just 2.1 kg, move it freely from room to room</p>
+              <p class="pro-item text-sm text-neutral-700"><strong>Covers large spaces</strong> — effective in rooms up to 51 m²</p>
+              <p class="pro-item text-sm text-neutral-700"><strong>Remote control + touchscreen</strong> — full control of temperature, fan speed and mode</p>
+              <p class="pro-item text-sm text-neutral-700"><strong>Built-in safety features</strong> — overheat, overload, and short-circuit protection included</p>
+              <p class="pro-item text-sm text-neutral-700"><strong>Targeted cooling</strong> — cool only the room you're in, reducing energy waste</p>
+            </div>
+
+            <!-- Pros/Cons -->
+            <div class="grid sm:grid-cols-2 gap-4 mb-5">
+              <div class="bg-green-50 border border-green-100 rounded-xl p-4">
+                <p class="text-xs font-bold text-green-700 uppercase tracking-wide mb-2">Pros</p>
+                <ul class="space-y-1.5">
+                  <li class="pro-item text-sm text-neutral-700">Fast &amp; noticeable cooling performance</li>
+                  <li class="pro-item text-sm text-neutral-700">Quiet operation — great for sleep</li>
+                  <li class="pro-item text-sm text-neutral-700">No installation required</li>
+                  <li class="pro-item text-sm text-neutral-700">Up to 75% energy savings vs. traditional AC</li>
+                  <li class="pro-item text-sm text-neutral-700">Cooling + heating year-round</li>
+                  <li class="pro-item text-sm text-neutral-700">Remote control + touchscreen included</li>
+                  <li class="pro-item text-sm text-neutral-700">Best value for money</li>
+                </ul>
+              </div>
+              <div class="bg-red-50 border border-red-100 rounded-xl p-4">
+                <p class="text-xs font-bold text-red-600 uppercase tracking-wide mb-2">Cons</p>
+                <ul class="space-y-1.5">
+                  <li class="con-item text-sm text-neutral-700">Only available online (not in stores)</li>
+                  <li class="con-item text-sm text-neutral-700">Sells out fast — especially in summer</li>
+                </ul>
+              </div>
+            </div>
+
+            <a href="https://www.diginear.com/2GFDLQK9/222K4PSK/" class="btn-primary block text-center font-bold py-4 px-6 rounded-full text-base">
+              Get 60% Discount — Check Availability →
+            </a>
+            <p class="text-center text-xs text-neutral-400 mt-2">⚡ Limited stock remaining — price may increase</p>
+
+            <!-- FAQ from founders -->
+            <div class="mt-8 border-t border-neutral-100 pt-6">
+              <h4 class="font-serif text-lg text-neutral-800 mb-4">Questions &amp; Answers</h4>
+              <div class="space-y-4">
+                <div class="bg-warm-50 rounded-xl p-4 border border-warm-100">
+                  <p class="text-sm font-bold text-neutral-800 mb-1">Does the EpiCooler require installation?</p>
+                  <p class="text-sm text-neutral-600 font-light leading-relaxed">"No — it works straight out of the box. Simply plug it in, select your mode, and it begins cooling or heating your space within minutes. No tools, no holes in the wall, no technician needed."</p>
+                </div>
+                <div class="bg-warm-50 rounded-xl p-4 border border-warm-100">
+                  <p class="text-sm font-bold text-neutral-800 mb-1">How large a room can the EpiCooler handle?</p>
+                  <p class="text-sm text-neutral-600 font-light leading-relaxed">"The EpiCooler is effective in spaces up to 51 m². Whether you want to cool a small bedroom or heat a larger living room, it maintains a consistent, comfortable temperature — without any fuss."</p>
+                </div>
+                <div class="bg-warm-50 rounded-xl p-4 border border-warm-100">
+                  <p class="text-sm font-bold text-neutral-800 mb-1">Is it safe to use at night?</p>
+                  <p class="text-sm text-neutral-600 font-light leading-relaxed">"100% safe. The EpiCooler runs whisper-quietly, making it ideal for bedrooms. It also includes built-in overheat protection, short-circuit protection, and an anti-burn grille — so you can sleep soundly without a worry."</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Customer reviews -->
+            <div class="mt-8 border-t border-neutral-100 pt-6">
+              <h4 class="font-serif text-lg text-neutral-800 mb-4">What Customers Are Saying</h4>
+              <div class="space-y-4">
+
+                <div class="flex gap-3 items-start">
+                  <div class="w-9 h-9 rounded-full bg-brand-100 flex items-center justify-center text-brand-600 font-bold text-sm shrink-0">H</div>
+                  <div class="flex-1 bg-neutral-50 border border-neutral-100 rounded-xl p-4">
+                    <div class="flex items-center gap-2 mb-1">
+                      <p class="text-sm font-bold text-neutral-800">Hannah R.</p>
+                      <span class="stars text-xs">★★★★★</span>
+                    </div>
+                    <p class="text-xs text-neutral-400 mb-2 font-light">Verified Purchase · May 27, 2026</p>
+                    <p class="text-sm text-neutral-600 font-light leading-relaxed">"I've been using it in my bedroom and it's so quiet! I sleep through the whole night without being woken up by loud fan noise. Absolutely love it."</p>
+                  </div>
+                </div>
+
+                <div class="flex gap-3 items-start">
+                  <div class="w-9 h-9 rounded-full bg-warm-100 flex items-center justify-center text-warm-700 font-bold text-sm shrink-0">E</div>
+                  <div class="flex-1 bg-neutral-50 border border-neutral-100 rounded-xl p-4">
+                    <div class="flex items-center gap-2 mb-1">
+                      <p class="text-sm font-bold text-neutral-800">Elke T.</p>
+                      <span class="stars text-xs">★★★★★</span>
+                    </div>
+                    <p class="text-xs text-neutral-400 mb-2 font-light">Verified Purchase · May 26, 2026</p>
+                    <p class="text-sm text-neutral-600 font-light leading-relaxed">"I was so tired of paying a fortune in energy bills with my old AC. I can already see my bills going down. It's great to have a little extra money back for essentials!"</p>
+                  </div>
+                </div>
+
+                <div class="flex gap-3 items-start">
+                  <div class="w-9 h-9 rounded-full bg-brand-100 flex items-center justify-center text-brand-600 font-bold text-sm shrink-0">L</div>
+                  <div class="flex-1 bg-neutral-50 border border-neutral-100 rounded-xl p-4">
+                    <div class="flex items-center gap-2 mb-1">
+                      <p class="text-sm font-bold text-neutral-800">Lisa G.</p>
+                      <span class="stars text-xs">★★★★★</span>
+                    </div>
+                    <p class="text-xs text-neutral-400 mb-2 font-light">Verified Purchase · May 7, 2026</p>
+                    <p class="text-sm text-neutral-600 font-light leading-relaxed">"It's been 40°C outside and in just 10 minutes my room goes from sweltering to perfect. I've had good air conditioners elsewhere before, but none cooled a room this quickly!"</p>
+                  </div>
+                </div>
+
+                <div class="flex gap-3 items-start">
+                  <div class="w-9 h-9 rounded-full bg-warm-100 flex items-center justify-center text-warm-700 font-bold text-sm shrink-0">J</div>
+                  <div class="flex-1 bg-neutral-50 border border-neutral-100 rounded-xl p-4">
+                    <div class="flex items-center gap-2 mb-1">
+                      <p class="text-sm font-bold text-neutral-800">Jozef K.</p>
+                      <span class="stars text-xs">★★★★★</span>
+                    </div>
+                    <p class="text-xs text-neutral-400 mb-2 font-light">Verified Purchase · May 20, 2026</p>
+                    <p class="text-sm text-neutral-600 font-light leading-relaxed">"My landlord doesn't allow permanent AC installation and I tried a few tower fans — but in this heat they just blow warm air around. The EpiCooler changed everything. My rooms are genuinely cool now."</p>
+                  </div>
+                </div>
+
+                <div class="flex gap-3 items-start">
+                  <div class="w-9 h-9 rounded-full bg-brand-100 flex items-center justify-center text-brand-600 font-bold text-sm shrink-0">M</div>
+                  <div class="flex-1 bg-neutral-50 border border-neutral-100 rounded-xl p-4">
+                    <div class="flex items-center gap-2 mb-1">
+                      <p class="text-sm font-bold text-neutral-800">Marta F.</p>
+                      <span class="stars text-xs">★★★★★</span>
+                    </div>
+                    <p class="text-xs text-neutral-400 mb-2 font-light">Verified Purchase · May 4, 2026</p>
+                    <p class="text-sm text-neutral-600 font-light leading-relaxed">"I've tried pretty much every portable air cooler out there, and the EpiCooler is by far the best. The energy-saving mode is brilliant, and I love how it keeps the room cool without making it freezing cold."</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Final CTA inside review block -->
+              <div class="mt-6 bg-brand-50 border border-brand-200 rounded-xl p-5 text-center">
+                <p class="text-sm text-neutral-700 font-light mb-1">Based on <strong class="text-neutral-900">9,803 verified reviews</strong> — average rating <strong class="text-brand-600">9.3 / 10</strong></p>
+                <p class="text-xs text-neutral-500 mb-4 font-light">Currently 60% off — limited stock remaining this summer</p>
+                <a href="https://www.diginear.com/2GFDLQK9/222K4PSK/" class="btn-primary inline-block font-bold py-3.5 px-8 rounded-full text-sm">
+                  Claim Your EpiCooler Discount →
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ─── PRODUCT 2: ZOKOP 13000BTU ─── -->
+      <div class="product-card bg-white border border-neutral-200 rounded-2xl overflow-hidden mb-6 shadow-sm">
+        <div class="p-6 sm:p-8">
+          <div class="flex items-start gap-4 mb-5">
+            <div class="rank-badge-silver w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-xl shadow-md shrink-0">2</div>
+            <div class="flex-1">
+              <div class="flex flex-wrap items-center gap-2 mb-1">
+                <h3 class="font-serif text-xl text-neutral-900">ZOKOP 13000BTU</h3>
+                <span class="text-xs font-bold bg-neutral-100 text-neutral-600 px-2.5 py-1 rounded-full">A−</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <div class="stars text-sm">★★★★★</div>
+                <span class="text-sm text-neutral-500">9.2 / 10</span>
+              </div>
+            </div>
+            <img src="images/prize2-lULecSVe.webp" alt="Second place" class="w-12 h-12 object-contain shrink-0" loading="lazy"/>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-5 mb-5">
+            <div class="sm:w-40 shrink-0">
+              <div class="bg-warm-50 rounded-xl p-3 flex items-center justify-center h-40">
+                <img src="images/b72724f0-d577-46a8-9878-85f689780000.webp" alt="ZOKOP 13000BTU" class="max-h-32 object-contain" loading="lazy"/>
+              </div>
+              <div class="mt-2 text-center">
+                <div class="text-xl font-bold text-neutral-700">£299.00</div>
+              </div>
+            </div>
+            <div class="flex-1">
+              <div class="space-y-2 mb-4">
+                <div><div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Cooling Performance</span><span class="font-bold">93%</span></div><div class="h-1.5 bg-neutral-100 rounded-full"><div class="h-1.5 bg-neutral-400 rounded-full" style="width:93%"></div></div></div>
+                <div><div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Ease of Use</span><span class="font-bold">90%</span></div><div class="h-1.5 bg-neutral-100 rounded-full"><div class="h-1.5 bg-neutral-400 rounded-full" style="width:90%"></div></div></div>
+                <div><div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Noise Level</span><span class="font-bold">93%</span></div><div class="h-1.5 bg-neutral-100 rounded-full"><div class="h-1.5 bg-neutral-400 rounded-full" style="width:93%"></div></div></div>
+                <div><div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Energy Efficiency</span><span class="font-bold">91%</span></div><div class="h-1.5 bg-neutral-100 rounded-full"><div class="h-1.5 bg-neutral-400 rounded-full" style="width:91%"></div></div></div>
+                <div><div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Customer Satisfaction</span><span class="font-bold">90%</span></div><div class="h-1.5 bg-neutral-100 rounded-full"><div class="h-1.5 bg-neutral-400 rounded-full" style="width:90%"></div></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-3 pt-4 border-t border-neutral-100">
+            <div>
+              <p class="text-xs font-bold text-green-700 uppercase tracking-wide mb-2">Pros</p>
+              <p class="pro-item text-sm text-neutral-700">Quick, powerful cooling</p>
+              <p class="pro-item text-sm text-neutral-700">Silent operation</p>
+              <p class="pro-item text-sm text-neutral-700">Remote control included</p>
+            </div>
+            <div>
+              <p class="text-xs font-bold text-red-600 uppercase tracking-wide mb-2">Cons</p>
+              <p class="con-item text-sm text-neutral-600">Higher price point</p>
+              <p class="con-item text-sm text-neutral-600">Poor humidity regulation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─── PRODUCT 3: UKOKE BTU ─── -->
+      <div class="product-card bg-white border border-neutral-200 rounded-2xl overflow-hidden mb-6 shadow-sm">
+        <div class="p-6 sm:p-8">
+          <div class="flex items-start gap-4 mb-5">
+            <div class="rank-badge-bronze w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-xl shadow-md shrink-0">3</div>
+            <div class="flex-1">
+              <div class="flex flex-wrap items-center gap-2 mb-1">
+                <h3 class="font-serif text-xl text-neutral-900">Ukoke Portable BTU</h3>
+                <span class="text-xs font-bold bg-warm-100 text-warm-700 px-2.5 py-1 rounded-full">B+</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <div class="stars text-sm">★★★★☆</div>
+                <span class="text-sm text-neutral-500">8.5 / 10</span>
+              </div>
+            </div>
+            <img src="images/prize3-C1iBJy5K.webp" alt="Third place" class="w-12 h-12 object-contain shrink-0" loading="lazy"/>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-5 mb-5">
+            <div class="sm:w-40 shrink-0">
+              <div class="bg-warm-50 rounded-xl p-3 flex items-center justify-center h-40">
+                <img src="images/1ade1e9f-a85d-4306-be4c-98f7427a0300.webp" alt="Ukoke BTU" class="max-h-32 object-contain" loading="lazy"/>
+              </div>
+              <div class="mt-2 text-center"><div class="text-xl font-bold text-neutral-700">£129.99</div></div>
+            </div>
+            <div class="flex-1">
+              <div class="space-y-2 mb-4">
+                <div><div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Cooling Performance</span><span class="font-bold">85%</span></div><div class="h-1.5 bg-neutral-100 rounded-full"><div class="h-1.5 bg-warm-400 rounded-full" style="width:85%"></div></div></div>
+                <div><div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Ease of Use</span><span class="font-bold">87%</span></div><div class="h-1.5 bg-neutral-100 rounded-full"><div class="h-1.5 bg-warm-400 rounded-full" style="width:87%"></div></div></div>
+                <div><div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Low Noise Level</span><span class="font-bold">84%</span></div><div class="h-1.5 bg-neutral-100 rounded-full"><div class="h-1.5 bg-warm-400 rounded-full" style="width:84%"></div></div></div>
+                <div><div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Energy Efficiency</span><span class="font-bold">91%</span></div><div class="h-1.5 bg-neutral-100 rounded-full"><div class="h-1.5 bg-warm-400 rounded-full" style="width:91%"></div></div></div>
+                <div><div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Customer Satisfaction</span><span class="font-bold">85%</span></div><div class="h-1.5 bg-neutral-100 rounded-full"><div class="h-1.5 bg-warm-400 rounded-full" style="width:85%"></div></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-3 pt-4 border-t border-neutral-100">
+            <div>
+              <p class="text-xs font-bold text-green-700 uppercase tracking-wide mb-2">Pros</p>
+              <p class="pro-item text-sm text-neutral-700">Quick cooling performance</p>
+              <p class="pro-item text-sm text-neutral-700">Built-in dehumidifier</p>
+              <p class="pro-item text-sm text-neutral-700">3 adjustable fan speeds</p>
+            </div>
+            <div>
+              <p class="text-xs font-bold text-red-600 uppercase tracking-wide mb-2">Cons</p>
+              <p class="con-item text-sm text-neutral-600">Expensive for the performance</p>
+              <p class="con-item text-sm text-neutral-600">Bulky and heavy</p>
+              <p class="con-item text-sm text-neutral-600">Louder than competitors</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─── PRODUCT 4: EvaCHILL ─── -->
+      <div class="product-card bg-white border border-neutral-200 rounded-2xl overflow-hidden mb-6 shadow-sm">
+        <div class="p-6 sm:p-8">
+          <div class="flex items-start gap-4 mb-5">
+            <div class="w-12 h-12 rounded-full bg-neutral-600 flex items-center justify-center text-white font-bold text-xl shadow-md shrink-0">4</div>
+            <div class="flex-1">
+              <div class="flex flex-wrap items-center gap-2 mb-1">
+                <h3 class="font-serif text-xl text-neutral-900">EvaCHILL</h3>
+                <span class="text-xs font-bold bg-neutral-100 text-neutral-600 px-2.5 py-1 rounded-full">B</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <div class="stars text-sm">★★★★☆</div>
+                <span class="text-sm text-neutral-500">8.3 / 10</span>
+              </div>
+            </div>
+            <img src="images/prize4-BRgDrceF.webp" alt="Fourth place" class="w-12 h-12 object-contain shrink-0" loading="lazy"/>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-5 mb-5">
+            <div class="sm:w-40 shrink-0">
+              <div class="bg-warm-50 rounded-xl p-3 flex items-center justify-center h-40">
+                <img src="images/evachill.webp" alt="EvaCHILL" class="max-h-32 object-contain" loading="lazy"/>
+              </div>
+              <div class="mt-2 text-center"><div class="text-xl font-bold text-neutral-700">£59.99</div></div>
+            </div>
+            <div class="flex-1">
+              <div class="space-y-2 mb-4">
+                <div><div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Cooling Performance</span><span class="font-bold">85%</span></div><div class="h-1.5 bg-neutral-100 rounded-full"><div class="h-1.5 bg-neutral-300 rounded-full" style="width:85%"></div></div></div>
+                <div><div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Ease of Use</span><span class="font-bold">89%</span></div><div class="h-1.5 bg-neutral-100 rounded-full"><div class="h-1.5 bg-neutral-300 rounded-full" style="width:89%"></div></div></div>
+                <div><div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Low Noise Level</span><span class="font-bold">81%</span></div><div class="h-1.5 bg-neutral-100 rounded-full"><div class="h-1.5 bg-neutral-300 rounded-full" style="width:81%"></div></div></div>
+                <div><div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Energy Efficiency</span><span class="font-bold">80%</span></div><div class="h-1.5 bg-neutral-100 rounded-full"><div class="h-1.5 bg-neutral-300 rounded-full" style="width:80%"></div></div></div>
+                <div><div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Customer Satisfaction</span><span class="font-bold">80%</span></div><div class="h-1.5 bg-neutral-100 rounded-full"><div class="h-1.5 bg-neutral-300 rounded-full" style="width:80%"></div></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-3 pt-4 border-t border-neutral-100">
+            <div>
+              <p class="text-xs font-bold text-green-700 uppercase tracking-wide mb-2">Pros</p>
+              <p class="pro-item text-sm text-neutral-700">Compact &amp; very portable</p>
+              <p class="pro-item text-sm text-neutral-700">Built-in air purifier</p>
+            </div>
+            <div>
+              <p class="text-xs font-bold text-red-600 uppercase tracking-wide mb-2">Cons</p>
+              <p class="con-item text-sm text-neutral-600">Lacks cooling power</p>
+              <p class="con-item text-sm text-neutral-600">Limited run time</p>
+              <p class="con-item text-sm text-neutral-600">Ventilated spaces only</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─── PRODUCT 5: COOLZY-PRO ─── -->
+      <div class="product-card bg-white border border-neutral-200 rounded-2xl overflow-hidden mb-10 shadow-sm">
+        <div class="p-6 sm:p-8">
+          <div class="flex items-start gap-4 mb-5">
+            <div class="w-12 h-12 rounded-full bg-neutral-400 flex items-center justify-center text-white font-bold text-xl shadow-md shrink-0">5</div>
+            <div class="flex-1">
+              <div class="flex flex-wrap items-center gap-2 mb-1">
+                <h3 class="font-serif text-xl text-neutral-900">Coolzy-Pro</h3>
+                <span class="text-xs font-bold bg-neutral-100 text-neutral-500 px-2.5 py-1 rounded-full">B</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <div class="stars text-sm">★★★★☆</div>
+                <span class="text-sm text-neutral-500">7.8 / 10</span>
+              </div>
+            </div>
+            <img src="images/prize5-BWZw5CGI.webp" alt="Fifth place" class="w-12 h-12 object-contain shrink-0" loading="lazy"/>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-5 mb-5">
+            <div class="sm:w-40 shrink-0">
+              <div class="bg-warm-50 rounded-xl p-3 flex items-center justify-center h-40">
+                <img src="images/c064d559-6785-45fa-aaef-b2ac026bb000.webp" alt="Coolzy-Pro" class="max-h-32 object-contain" loading="lazy"/>
+              </div>
+              <div class="mt-2 text-center"><div class="text-xl font-bold text-neutral-700">£179.99</div></div>
+            </div>
+            <div class="flex-1">
+              <div class="space-y-2 mb-4">
+                <div><div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Cooling Performance</span><span class="font-bold">70%</span></div><div class="h-1.5 bg-neutral-100 rounded-full"><div class="h-1.5 bg-neutral-200 rounded-full" style="width:70%"></div></div></div>
+                <div><div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Ease of Use</span><span class="font-bold">89%</span></div><div class="h-1.5 bg-neutral-100 rounded-full"><div class="h-1.5 bg-neutral-200 rounded-full" style="width:89%"></div></div></div>
+                <div><div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Low Noise Level</span><span class="font-bold">81%</span></div><div class="h-1.5 bg-neutral-100 rounded-full"><div class="h-1.5 bg-neutral-200 rounded-full" style="width:81%"></div></div></div>
+                <div><div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Energy Efficiency</span><span class="font-bold">72%</span></div><div class="h-1.5 bg-neutral-100 rounded-full"><div class="h-1.5 bg-neutral-200 rounded-full" style="width:72%"></div></div></div>
+                <div><div class="flex justify-between text-xs text-neutral-600 mb-1"><span>Customer Satisfaction</span><span class="font-bold">70%</span></div><div class="h-1.5 bg-neutral-100 rounded-full"><div class="h-1.5 bg-neutral-200 rounded-full" style="width:70%"></div></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-3 pt-4 border-t border-neutral-100">
+            <div>
+              <p class="text-xs font-bold text-green-700 uppercase tracking-wide mb-2">Pros</p>
+              <p class="pro-item text-sm text-neutral-700">3 adjustable fan speeds</p>
+              <p class="pro-item text-sm text-neutral-700">Temperature control</p>
+            </div>
+            <div>
+              <p class="text-xs font-bold text-red-600 uppercase tracking-wide mb-2">Cons</p>
+              <p class="con-item text-sm text-neutral-600">Expensive for the performance level</p>
+              <p class="con-item text-sm text-neutral-600">Bulky and heavy</p>
+              <p class="con-item text-sm text-neutral-600">Poor humidity regulation</p>
+              <p class="con-item text-sm text-neutral-600">Requires frequent maintenance</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Final verdict + big CTA -->
+      <div class="bg-gradient-to-br from-brand-700 to-brand-900 rounded-2xl p-8 text-white text-center">
+        <h2 class="font-serif text-2xl sm:text-3xl mb-3">Our Top Recommendation</h2>
+        <p class="text-brand-200 text-sm leading-relaxed max-w-lg mx-auto mb-6 font-light">
+          After testing every model, EpiCooler is the clear winner for comfort, value, and ease of use — especially for bedrooms, living rooms, and home offices. With stock running low this summer, now is the time to act.
+        </p>
+        <a href="https://www.diginear.com/2GFDLQK9/222K4PSK/" class="inline-block bg-white text-brand-700 font-bold py-4 px-10 rounded-full text-base hover:bg-warm-100 transition-colors">
+          Get 60% Off EpiCooler Today →
+        </a>
+        <p class="text-brand-300 text-xs mt-3">⚡ Limited units available — Offer may end soon</p>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════ -->
+  <footer class="bg-white border-t border-neutral-200 mt-8">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-10">
+      <div class="grid sm:grid-cols-3 gap-8 mb-8">
+
+        <!-- Brand -->
+        <div>
+          <div class="logo-wordmark mb-3">
+            <span class="logo-daily text-neutral-400 block">Daily</span>
+            <span class="logo-trends text-neutral-800">Trends<span class="logo-dot">.</span></span>
+          </div>
+          <p class="text-xs text-neutral-500 font-light leading-relaxed">Independent product reviews and buying guides for smart, informed consumers.</p>
+        </div>
+
+        <!-- Navigation -->
+        <div>
+          <p class="text-xs font-bold text-neutral-700 uppercase tracking-widest mb-3">Menu</p>
+          <ul class="space-y-2">
+            <li><a href="https://www.diginear.com/2GFDLQK9/222K4PSK/" class="text-sm text-neutral-500 hover:text-brand-600 transition-colors">Home</a></li>
+            <li><a href="https://www.diginear.com/2GFDLQK9/222K4PSK/" class="text-sm text-neutral-500 hover:text-brand-600 transition-colors">Home &amp; Living</a></li>
+            <li><a href="https://www.diginear.com/2GFDLQK9/222K4PSK/" class="text-sm text-neutral-500 hover:text-brand-600 transition-colors">Wellness</a></li>
+            <li><a href="https://www.diginear.com/2GFDLQK9/222K4PSK/" class="text-sm text-neutral-500 hover:text-brand-600 transition-colors">Outdoors</a></li>
+          </ul>
+        </div>
+
+        <!-- Legal -->
+        <div>
+          <p class="text-xs font-bold text-neutral-700 uppercase tracking-widest mb-3">Legal</p>
+          <ul class="space-y-2">
+            <li><a href="https://www.diginear.com/2GFDLQK9/222K4PSK/" class="text-sm text-neutral-500 hover:text-brand-600 transition-colors">Imprint</a></li>
+            <li><a href="privacy-policy.html" class="text-sm text-neutral-500 hover:text-brand-600 transition-colors">Privacy Policy</a></li>
+            <li><a href="https://www.diginear.com/2GFDLQK9/222K4PSK/" class="text-sm text-neutral-500 hover:text-brand-600 transition-colors">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-t border-neutral-100 pt-6 text-center">
+        <p class="text-xs text-neutral-400 font-light">© 2026 Daily Trends. All rights reserved. This page contains affiliate links. We may earn a commission when you purchase through our links, at no extra cost to you.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ════════════════════════════════════════════
+       STICKY MOBILE CTA
+  ════════════════════════════════════════════ -->
+  <div class="sticky-mobile-cta" id="stickyCta">
+    <a href="https://www.diginear.com/2GFDLQK9/222K4PSK/" class="btn-primary block text-center font-bold py-3.5 px-6 rounded-full text-sm w-full">
+      ⚡ Check EpiCooler — 60% Off Today →
+    </a>
+  </div>
+
+  <!-- Small bottom padding on mobile to avoid CTA overlap -->
+  <div class="h-20 md:hidden"></div>
+
+  <script>
+    // Show sticky CTA only after scrolling past hero
+    const stickyCta = document.getElementById('stickyCta');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 400) {
+        stickyCta.style.display = 'block';
+      } else {
+        stickyCta.style.display = 'none';
+      }
+    }, { passive: true });
+  </script>
+
+</body>
+</html>
